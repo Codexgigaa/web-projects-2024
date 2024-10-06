@@ -38,6 +38,10 @@ body {
     margin: 20px;
     filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
     transition: transform 0.3s;
+    background: #ffffff66;
+    padding: 5px;
+    border: #5b5656 solid 2px;
+    border-radius: 7px;
 }
 
 .logo:hover {
@@ -57,11 +61,12 @@ body {
     padding: 10px 15px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    transition: color 0.3s;
+    transition: transform 0.3s;
 }
 
 .nav-links a:hover {
     color: #e2e2e2;
+    text-decoration: underline;
 }
 
 .hero-content {
@@ -104,9 +109,8 @@ body {
 }
 
 .btn-secondary:hover {
-    background-color: #a8dadc;
+    background-color: #cac8c5;
 }
-
 .slider {
     position: relative;
     width: 100%;
